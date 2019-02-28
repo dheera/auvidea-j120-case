@@ -71,6 +71,9 @@ difference() {
     translate([LL-7-T-T,0,HH-6])
     rotate([-90,0,0])
     cylinder(d1=3.1,d2=5,h=T,$fn=32,$center=true);
+    
+    translate([offsetL+73, 0, 5.5+1.5+7/2])
+    cube([11,5,7],center=true);
 }
 
 //translate([LL-2,0,0])
