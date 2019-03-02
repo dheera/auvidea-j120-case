@@ -8,6 +8,19 @@ T=2;
 XW=42;
 XL=79;
 
+/*
+translate([0,WW,49])
+rotate([180,0,0])
+import("lid.stl");
+*/
+
+
+/*
+translate([LL-3*T,T,T])
+rotate([90,0,90])
+import("side.stl");
+*/
+
 scale([-1,1,1])
 tab();
 
